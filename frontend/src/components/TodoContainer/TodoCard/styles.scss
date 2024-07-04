@@ -1,0 +1,28 @@
+.todo__card {
+  background-color: $card-bg-color;
+  border-radius: 20px;
+  padding: 1rem 1.5rem;
+  margin: 8px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease, height 0.5s ease-out, transform 0.3s ease;
+  overflow: hidden;
+  word-wrap: break-word; 
+  cursor: pointer;
+
+  h2 {
+    font-size: 1.25em;
+    margin-bottom: 8px;
+    color: #e0e0e0;
+  }
+
+  p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #b0b0b0;
+  }
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+    transform: scale(1.02);
+  }
+}
